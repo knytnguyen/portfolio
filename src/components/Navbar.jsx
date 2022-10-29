@@ -9,15 +9,15 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#37445e] text-gray-300'>
         <div>
-            <h1 className='text-[#ff79c6]'>Kenny Nguyen</h1>
+            <h1 className='text-2xl text-[#ff79c6] pl-4'>Kenny Nguyen</h1>
         </div>
         {/* MENU */}
-        <ul className='hidden md:flex'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
-            <li>Contact</li>
+        <ul className='hidden md:flex text-lg p-2'>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>Home</li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>About</li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>Skills & Resume</li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>Projects</li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>Contact</li>
         </ul>
 
         {/* HAMBURGER MENU */}
@@ -29,7 +29,7 @@ const Navbar = () => {
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#37445e] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>Home</li>
             <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
+            <li className='py-6 text-4xl'>Skills & Resume</li>
             <li className='py-6 text-4xl'>Projects</li>
             <li className='py-6 text-4xl'>Contact</li>
         </ul>

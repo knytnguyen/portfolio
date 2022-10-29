@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 @layer base {
     body {
@@ -11,5 +12,8 @@
     li {
         @apply px-4;
         @apply cursor-pointer;
+    }
+    h1 {
+        @apply font-[Pacifico];
     }
 }
