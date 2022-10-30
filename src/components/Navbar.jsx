@@ -16,7 +16,7 @@ const Navbar = () => {
             <li className='hover:bg-pink-500 rounded-2xl p-3'>Home</li>
             <li className='hover:bg-pink-500 rounded-2xl p-3'>About</li>
             <li className='hover:bg-pink-500 rounded-2xl p-3'>Skills & Resume</li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>Projects</li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>Portfolio</li>
             <li className='hover:bg-pink-500 rounded-2xl p-3'>Contact</li>
         </ul>
 
