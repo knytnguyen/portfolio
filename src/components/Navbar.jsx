@@ -2,22 +2,33 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
-    const handleClick = () => setNav(!nav)
+    const [nav, setNav] = useState(false);
+    const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#37445e] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#37445e] text-gray-100'>
         <div>
             <h1 className='text-2xl text-[#ff79c6] pl-4'>Kenny Nguyen</h1>
         </div>
         {/* MENU */}
         <ul className='hidden md:flex text-lg p-2'>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>Home</li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>About</li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>Skills & Resume</li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>Portfolio</li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>Contact</li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+                <Link to="home" smooth={true} duration={500}> Home </Link>
+            </li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+                <Link to="about" smooth={true} duration={500}> About </Link>
+            </li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+                <Link to="skills" smooth={true} duration={500}> Skills & Resume </Link>
+            </li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+                <Link to="portfolio" smooth={true} duration={500}> Portfolio </Link>
+            </li>
+            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+                <Link to="contact" smooth={true} duration={500}> Contact </Link>
+            </li>
         </ul>
 
         {/* HAMBURGER MENU */}
@@ -27,11 +38,21 @@ const Navbar = () => {
 
         {/* MOBILE MENU */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#37445e] flex flex-col justify-center items-center'}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills & Resume</li>
-            <li className='py-6 text-4xl'>Projects</li>
-            <li className='py-6 text-4xl'>Contact</li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="home" smooth={true} duration={500}> Home </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="about" smooth={true} duration={500}> About </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="skills" smooth={true} duration={500}> Skills & Resume </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="portfolio" smooth={true} duration={500}> Portfolio </Link>
+            </li>
+            <li className='py-6 text-4xl'>
+                <Link onClick={handleClick} to="contact" smooth={true} duration={500}> Contact </Link>
+            </li>
         </ul>
 
         {/* SOCIAL ICONS */}
