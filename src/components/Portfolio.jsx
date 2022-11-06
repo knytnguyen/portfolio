@@ -43,7 +43,7 @@ const Portfolio = () => {
             </div> */}
             <div className='m-6'>
                 {myData.map((item) => {
-                    const { id, image, title, imageDescription } = item;
+                    const { id, image, title, imageDescription, techUsed, linkToProject} = item;
                     return (
                         <div key={id} className={activeSlide === id ? 'flex justify-between items-center' : 'hidden'}>
                             <button className='text-4xl border-2 border-pink-500 hover:bg-[#88C0D0] p-2' onClick={() => prevSliderHandler(id)}>
@@ -51,9 +51,13 @@ const Portfolio = () => {
                             </button>
                             <div className='flex flex-col items-center'>
                                 <img src={image} alt={title} />
-                                <h2 className='text-4xl font-bold my-6'>{id}</h2>
+                                <h2 className='text-3xl font-bold my-4'>{id}</h2>
                                 <p className='text-2xl underline'>{title}</p>
-                                <p className='text-2xl p-2'>{imageDescription}</p>
+                                <p className='text-1xl p-2'>{imageDescription}</p>
+                                <p className='text-1xl p-4 text-[#ff79c6]'>{techUsed}</p>
+                                <a className='border-green' href={linkToProject} rel='noreferrer' target='_blank'>
+                                    <button className='text-3xl border-2 border-[#f0f4f8] p-4 hover:bg-[#ff79c6]'>View Project</button>
+                                </a>
                             </div>
                             <button className='text-4xl border-2 border-pink-500 hover:bg-[#88C0D0] p-2' onClick={() => nextSlideHandler(id)}>
                                 <FiChevronRight />
