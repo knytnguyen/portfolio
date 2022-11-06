@@ -8,25 +8,25 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-gray-100'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-[#f0f4f8]'>
         <div>
-            <h1 className='text-3xl text-[#f298f2] pl-4'>Kenny Nguyen</h1>
+            <h1 className='text-3xl text-[#88C0D0] pl-4'>Kenny Nguyen</h1>
         </div>
         {/* MENU */}
         <ul className='hidden md:flex text-lg p-2'>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+            <li className='hover:bg-[#88C0D0] rounded-2xl p-3'>
                 <Link to="home" smooth={true} duration={500}> Home </Link>
             </li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+            <li className='hover:bg-[#88C0D0] rounded-2xl p-3'>
                 <Link to="about" smooth={true} duration={500}> About </Link>
             </li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+            <li className='hover:bg-[#88C0D0] rounded-2xl p-3'>
                 <Link to="skills" smooth={true} duration={500}> Skills & Resume </Link>
             </li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+            <li className='hover:bg-[#88C0D0] rounded-2xl p-3'>
                 <Link to="portfolio" smooth={true} duration={500}> Portfolio </Link>
             </li>
-            <li className='hover:bg-pink-500 rounded-2xl p-3'>
+            <li className='hover:bg-[#88C0D0] rounded-2xl p-3'>
                 <Link to="contact" smooth={true} duration={500}> Contact </Link>
             </li>
         </ul>
@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
 
         {/* MOBILE MENU */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#37445e] flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#121212] flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
                 <Link onClick={handleClick} to="home" smooth={true} duration={500}> Home </Link>
             </li>

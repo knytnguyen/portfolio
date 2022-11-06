@@ -34,7 +34,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -42,7 +42,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(lightgreen, lightblue);
+    background-image: linear-gradient(#ff79c6, #8be9fd);
     border-radius: 25px;
 }
 
