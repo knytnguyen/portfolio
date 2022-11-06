@@ -8,9 +8,9 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#37445e] text-gray-100'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-gray-100'>
         <div>
-            <h1 className='text-2xl text-[#ff79c6] pl-4'>Kenny Nguyen</h1>
+            <h1 className='text-3xl text-[#f298f2] pl-4'>Kenny Nguyen</h1>
         </div>
         {/* MENU */}
         <ul className='hidden md:flex text-lg p-2'>
