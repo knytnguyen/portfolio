@@ -1,8 +1,8 @@
-import TypingRoyale from '../assets/TypingRoyale-Image.PNG'
-import RogueOrigins from '../assets/RogueOrigins-Image.png'
-import BeginningPortfolio from '../assets/Beginning-Portfolio-Site.PNG'
-import CodePenProfile from '../assets/CodePen-Profile.PNG'
-import FCCProfile from '../assets/FreeCodeCamp-Profile.PNG'
+import TypingRoyale from '../assets/projects/TypingRoyale-Image.PNG'
+import RogueOrigins from '../assets/projects/RogueOrigins-Image.png'
+import BeginningPortfolio from '../assets/projects/Beginning-Portfolio-Site.PNG'
+import CodePenProfile from '../assets/projects/CodePen-Profile.PNG'
+import FCCProfile from '../assets/projects/FreeCodeCamp-Profile.PNG'
 
 const data = [
     {

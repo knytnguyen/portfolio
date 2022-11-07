@@ -1,11 +1,11 @@
 import React from 'react'
 
-import CPP from '../assets/CPP-Logo.png';
-import Python from '../assets/Python-Logo.png';
-import JavaScript from '../assets/JavaScript-Logo.png';
-import GitHub from '../assets/GitHub-Logo.png';
-import ReactLogo from '../assets/React-Logo.png';
-import HTML from '../assets/HTML-Logo.png';
+import CPP from '../assets/skills/CPP-Logo.png';
+import Python from '../assets/skills/Python-Logo.png';
+import JavaScript from '../assets/skills/JavaScript-Logo.png';
+import GitHub from '../assets/skills/GitHub-Logo.png';
+import ReactLogo from '../assets/skills/React-Logo.png';
+import HTML from '../assets/skills/HTML-Logo.png';
 
 const Skills = () => {
   return (
@@ -42,6 +42,7 @@ const Skills = () => {
                     <p className='my-4'>HTML/CSS</p>
                 </div>
             </div>
+            <a href=''><button className='text-4xl border-2 border-[#f0f4f8] hover:bg-[#ff79c6] hover:text-[#111a29] p-2'>View Resume</button></a>
         </div>
     </div>
   )
