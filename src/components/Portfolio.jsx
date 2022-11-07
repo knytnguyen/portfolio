@@ -46,7 +46,7 @@ const Portfolio = () => {
                     const { id, image, title, imageDescription, techUsed, linkToProject} = item;
                     return (
                         <div key={id} className={activeSlide === id ? 'flex justify-between items-center' : 'hidden'}>
-                            <button className='text-4xl border-2 border-pink-500 hover:bg-[#88C0D0] p-2' onClick={() => prevSliderHandler(id)}>
+                            <button className='text-4xl border-2 border-[#f0f4f8] hover:bg-[#ff79c6] hover:text-[#111a29] p-2' onClick={() => prevSliderHandler(id)}>
                                 <FiChevronLeft />
                             </button>
                             <div className='flex flex-col items-center'>
@@ -56,10 +56,10 @@ const Portfolio = () => {
                                 <p className='text-1xl p-2'>{imageDescription}</p>
                                 <p className='text-1xl p-4 text-[#ff79c6]'>{techUsed}</p>
                                 <a className='border-green' href={linkToProject} rel='noreferrer' target='_blank'>
-                                    <button className='text-3xl border-2 border-[#f0f4f8] p-4 hover:bg-[#ff79c6]'>View Project</button>
+                                    <button className='text-3xl border-2 border-[#f0f4f8] p-4 hover:bg-[#ff79c6] hover:text-[#111a29]'>View Project</button>
                                 </a>
                             </div>
-                            <button className='text-4xl border-2 border-pink-500 hover:bg-[#88C0D0] p-2' onClick={() => nextSlideHandler(id)}>
+                            <button className='text-4xl border-2 border-[#f0f4f8] hover:bg-[#ff79c6] hover:text-[#111a29] p-2' onClick={() => nextSlideHandler(id)}>
                                 <FiChevronRight />
                             </button>
                         </div>
