@@ -37,7 +37,7 @@ const data = [
     {
         id: 5,
         image: FCCProfile,
-        title: 'freeCodeCamp Profile',
+        title: 'FCC Profile',
         imageDescription: 'I have completed the freeCodeCamp Responsive Web Design certification and am in the process of completing a JavaScript Algorithms and Data Structures certification. The courses on freeCodeCamp typically comprise of 300 hours worth of material each which seek to teach the fundamentals of various coding topics.',
         techUsed: 'HTML • CSS • JavaScript'
     },
