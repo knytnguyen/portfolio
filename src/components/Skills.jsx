@@ -43,7 +43,7 @@ const Skills = () => {
                 </div>
             </div>
             <a href='../assets/resume/Resume%20-%20Kenny%20Nguyen.pdf' rel='noreferrer' target='_blank'>
-                <button className='text-4xl border-2 border-[#f0f4f8] hover:bg-[#ff79c6] hover:text-[#111a29] p-2 flex justify-center mx-auto'>View Resume</button>
+                <button className='text-2xl border-2 border-[#f0f4f8] hover:bg-[#ff79c6] hover:border-[#152037] p-4 flex justify-center mx-auto'>View Resume</button>
             </a>
         </div>
     </div>
