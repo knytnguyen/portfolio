@@ -13,7 +13,7 @@ const Skills = () => {
         {/* CONTAINER */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#ff79c6]'>Skills & Resume</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#9285C8]'>Skills & Resume</p>
                 <p className='py-4'>These are the technologies that I've worked with.</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 pb-10'>
@@ -43,7 +43,7 @@ const Skills = () => {
                 </div>
             </div>
             <a href='../assets/resume/Resume%20-%20Kenny%20Nguyen.pdf' rel='noreferrer' target='_blank'>
-                <button className='text-lg border-2 border-[#f0f4f8] hover:bg-[#ff79c6] hover:border-[#152037] p-4 flex justify-center mx-auto'>View Resume</button>
+                <button className='text-lg border-2 border-[#f0f4f8] hover:bg-[#9285C8] hover:border-[#152037] p-4 flex justify-center mx-auto'>View Resume</button>
             </a>
         </div>
     </div>
