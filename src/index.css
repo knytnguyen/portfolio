@@ -18,6 +18,19 @@
     }
 }
 
+@layer components {
+    .blinking-cursor:after {
+        content: '|';
+        @apply text-green-200;
+        animation: blink 1s step-start infinite;
+    }
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+}
+
 .content-div {
     background-repeat: no-repeat;
     background-size: cover;
