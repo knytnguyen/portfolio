@@ -13,15 +13,14 @@ const Home = () => {
             <h2 className='text-4xl font-bold py-2 sm:text-7xl text-[#f0f4f8]'> Kenny Nguyen,</h2>
 
             <h2 className='text-4xl py-2 sm:text-7xl font-bold text-[#8892b0]'>
-                I am
+                I am a
                 <Typical
                     wrapper="b"
                     loop={1}
                     steps={[
-                        ' a student.', 2000, 
-                        ' an enthusiast.', 2000,
-                        ' a developer.', 2000,
-                        ' an aspiring software engineer.', 2000
+                        ' student.', 2000, 
+                        ' lifelong enthusiast.', 2000,
+                        ' future software engineer.', 2000
                     ]}
                 />
             </h2>
