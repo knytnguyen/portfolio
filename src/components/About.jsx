@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import ProfileImage from '../assets/profile-image/updatedProfileImage.jpg';
 
 const About = () => {
   return (
@@ -11,18 +12,18 @@ const About = () => {
                 <div></div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-4xl font-bold'>
-                    <p>
-                        Hi, I'm Kaiyo, welcome to my about section!
-                    </p>
-                </div>
+                {/* <div style={{ backgroundImage: `url(${ProfileImage})`}}
+                className>
+
+                </div> */}
+                <img src={ProfileImage} alt="profile-pic" className='w-100 h-100 rounded-full'/>
                 <div>
-                    <p>
-                        fasdjkfdasfdjasf
-                        fdjask;fjdaskl;fdsajk
-                        fasdklfjdks;fjkds;afasdjkl
-                        fadsk;lfjdaskl;fjads;
-                        fjdaks;fjdas;
+                    <p className='text-center text-1xl'>
+                    Hello there, thanks for visiting my website! My name is Kenny Nguyen and I am currently a third year student majoring in 
+                    Computer Science with Business Applications at the University of California, Riverside. My current focus is on back-end development 
+                    as I love the process of designing and building out robust and scalable features that aim to provide a better and more fulfilling 
+                    experience for users. As a fervent learner and someone who is always willing and open to learn new things, face different challenges, 
+                    and solve problems, back-end development and working with servers, APIs, and databases is something that I love to pursue.
                     </p>
                 </div>
             </div>
