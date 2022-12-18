@@ -32,10 +32,10 @@ const Portfolio = () => {
     };
 
   return (
-    <div name ='portfolio' className='w-full h-130vh text-[#f0f4f8] bg-[#111a29]'>
+    <div name ='portfolio' className='w-full h-150vh text-[#16192C] bg-[#F3F0E7]'>
         <div className='max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-[#f0f4f8] border-[#9285C8]'>Portfolio</p>
+                <p className='text-4xl font-bold inline border-b-4 text-[#16192C] border-[#9285C8]'>Portfolio</p>
                 <p className='py-6'>Check out some of the projects I've done in the past!</p>
             </div>
             {/* CONTAINER
@@ -46,7 +46,7 @@ const Portfolio = () => {
                     const { id, image, title, imageDescription, techUsed, linkToProject} = item;
                     return (
                         <div key={id} className={activeSlide === id ? 'flex justify-between items-center' : 'hidden'}>
-                            <button className='text-4xl border-2 border-[#f0f4f8] hover:bg-[#9285C8] hover:text-[#111a29] p-2' onClick={() => prevSliderHandler(id)}>
+                            <button className='text-4xl border-2 border-[#16192C] hover:bg-[#9285C8] hover:text-[#111a29] p-2' onClick={() => prevSliderHandler(id)}>
                                 <FiChevronLeft />
                             </button>
                             <div className='flex flex-col items-center'>
@@ -54,12 +54,12 @@ const Portfolio = () => {
                                 <h2 className='text-3xl font-bold my-4'>{id}</h2>
                                 <p className='text-2xl underline'>{title}</p>
                                 <p className='text-1xl p-2 text-center'>{imageDescription}</p>
-                                <p className='text-1xl p-4 pb-6 text-[#8be9fd]'>{techUsed}</p>
+                                <p className='text-1xl p-4 pb-6 text-[#2d414c]'>{techUsed}</p>
                                 <a className='border-green' href={linkToProject} rel='noreferrer' target='_blank'>
-                                    <button className='text-lg border-2 border-[#f0f4f8] p-4 hover:bg-[#9285C8] hover:border-[#111a29]'>View Project</button>
+                                    <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex justify-center mx-auto border-[#121212] hover:bg-[#E6CCF5]'>View Project</button>
                                 </a>
                             </div>
-                            <button className='text-4xl border-2 border-[#f0f4f8] hover:bg-[#9285C8] hover:text-[#111a29] p-2' onClick={() => nextSlideHandler(id)}>
+                            <button className='text-4xl border-2 border-[#16192C] hover:bg-[#9285C8] hover:text-[#111a29] p-2' onClick={() => nextSlideHandler(id)}>
                                 <FiChevronRight />
                             </button>
                         </div>
