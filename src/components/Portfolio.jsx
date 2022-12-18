@@ -32,11 +32,11 @@ const Portfolio = () => {
     };
 
   return (
-    <div name ='portfolio' className='w-full h-screen text-[#f0f4f8] bg-[#111a29]'>
+    <div name ='portfolio' className='w-full h-130vh text-[#f0f4f8] bg-[#111a29]'>
         <div className='max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-[#f0f4f8] border-[#9285C8]'>Portfolio</p>
-                <p className='py-6'>Check out some of the projects I've done in the past! (Hover/Click on the project image to visit the project)</p>
+                <p className='py-6'>Check out some of the projects I've done in the past!</p>
             </div>
             {/* CONTAINER
             <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
