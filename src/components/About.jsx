@@ -7,7 +7,7 @@ const About = () => {
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
-                    <h3 className='text-4xl font-bold inline border-b-4 border-[#E6CCF5]'>About Me</h3>
+                    <h3 className='text-4xl font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom p-1'>About Me</h3>
                 </div>
                 <div></div>
             </div>

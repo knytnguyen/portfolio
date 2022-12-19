@@ -13,8 +13,8 @@ const Skills = () => {
         {/* CONTAINER */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <h3 className='text-4xl font-bold inline border-b-4 border-[#E6CCF5]'>Skills & Resume</h3>
-                <p className='py-4'>These are the technologies that I've worked with.</p>
+                <h3 className='text-4xl font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom p-1'>Skills & Resume</h3>
+                <p className='py-4'>These are some the technologies that I've worked with.</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 pb-10'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-[#FFF5B1]'>

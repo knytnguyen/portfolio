@@ -35,8 +35,8 @@ const Portfolio = () => {
     <div name ='portfolio' className='w-full h-150vh text-[#16192C] bg-[#FAF4E8]'>
         <div className='max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <h3 className='text-4xl font-bold inline border-b-4 text-[#16192C] border-[#E6CCF5]'>Portfolio</h3>
-                <p className='pt-4'>Check out some of the projects I've done in the past!</p>
+                <h3 className='text-4xl font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom p-1'>Portfolio</h3>
+                <p className='pt-4'>Check out all of the projects I've done in the past!</p>
             </div>
             <div className='m-6'>
                 {myData.map((item) => {
