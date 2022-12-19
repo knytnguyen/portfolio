@@ -14,19 +14,19 @@ const Navbar = () => {
         </div>
         {/* MENU */}
         <ul className='hidden md:flex text-lg p-2'>
-            <li className='hover:bg-[#9285C8] rounded-2xl p-3'>
+            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
                 <Link to="home" smooth={true} duration={500}> Home </Link>
             </li>
-            <li className='hover:bg-[#9285C8] rounded-2xl p-3'>
+            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
                 <Link to="about" smooth={true} duration={500}> About </Link>
             </li>
-            <li className='hover:bg-[#9285C8] rounded-2xl p-3'>
+            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
                 <Link to="skills" smooth={true} duration={500}> Skills & Resume </Link>
             </li>
-            <li className='hover:bg-[#9285C8] rounded-2xl p-3'>
+            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
                 <Link to="portfolio" smooth={true} duration={500}> Portfolio </Link>
             </li>
-            <li className='hover:bg-[#9285C8] rounded-2xl p-3'>
+            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
                 <Link to="contact" smooth={true} duration={500}> Contact </Link>
             </li>
         </ul>

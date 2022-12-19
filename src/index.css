@@ -32,20 +32,3 @@
         hsla(242, 74%, 61%, 0.8)
     )!important;
 }
-
-::-webkit-scrollbar {
-    width: 7px;
-}
-
-::-webkit-scrollbar-track {
-    background: #121212;
-}
-
-::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(#9285C8, #8be9fd);
-    border-radius: 25px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-image: linear-gradient(lightgreen, lightpink);
-}
