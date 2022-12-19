@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
 
 @layer base {
     body {
@@ -14,26 +15,12 @@
         @apply cursor-pointer;
     }
     h1 {
-        font-family: 'Roboto Slab', serif;
+      font-family: 'Roboto Slab', serif;
+    }
+    h2 {
+      font-family: 'Lora', serif;
+    }
+    h3 {
+      font-family: 'Lora', serif;
     }
 }
-
-@responsive {
-    .text-shadow {
-      text-shadow: 2px 2px #8be9fd;
-      font-size: 1.875rem;
-      padding: 1rem;
-    }
-  
-    .text-shadow-md {
-      text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
-    }
-  
-    .text-shadow-lg {
-      text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
-    }
-  
-    .text-shadow-none {
-      text-shadow: none;
-    }
-  }

@@ -35,7 +35,7 @@ const Portfolio = () => {
     <div name ='portfolio' className='w-full h-150vh text-[#16192C] bg-[#FAF4E8]'>
         <div className='max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 text-[#16192C] border-[#E6CCF5]'>Portfolio</p>
+                <h3 className='text-4xl font-bold inline border-b-4 text-[#16192C] border-[#E6CCF5]'>Portfolio</h3>
                 <p className='py-6'>Check out some of the projects I've done in the past!</p>
             </div>
             {/* CONTAINER
