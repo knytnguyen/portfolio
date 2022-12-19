@@ -3,17 +3,37 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 @layer base {
     body {
-        @apply font-[Poppins];
+        font-family: 'Poppins', sans-serif;
     }
     li {
         @apply px-4;
         @apply cursor-pointer;
     }
     h1 {
-        @apply font-[Pacifico];
+        font-family: 'Roboto Slab', serif;
     }
 }
+
+@responsive {
+    .text-shadow {
+      text-shadow: 2px 2px #8be9fd;
+      font-size: 1.875rem;
+      padding: 1rem;
+    }
+  
+    .text-shadow-md {
+      text-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08);
+    }
+  
+    .text-shadow-lg {
+      text-shadow: 0 15px 30px rgba(0,0,0,0.11), 0 5px 15px rgba(0,0,0,0.08);
+    }
+  
+    .text-shadow-none {
+      text-shadow: none;
+    }
+  }
