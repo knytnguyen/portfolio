@@ -36,11 +36,8 @@ const Portfolio = () => {
         <div className='max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <h3 className='text-4xl font-bold inline border-b-4 text-[#16192C] border-[#E6CCF5]'>Portfolio</h3>
-                <p className='py-6'>Check out some of the projects I've done in the past!</p>
+                <p className='pt-4'>Check out some of the projects I've done in the past!</p>
             </div>
-            {/* CONTAINER
-            <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
-            </div> */}
             <div className='m-6'>
                 {myData.map((item) => {
                     const { id, image, title, imageDescription, techUsed, linkToProject} = item;
@@ -50,11 +47,11 @@ const Portfolio = () => {
                                 <FiChevronLeft />
                             </button>
                             <div className='flex flex-col items-center'>
-                                <img className='max-h-50 w-97 px-5' src={image} alt={title}/>
+                                <img className='max-h-50 max-w-97 px-5' src={image} alt={title}/>
                                 <h2 className='text-3xl font-bold my-4'>{id}</h2>
-                                <p className='text-2xl underline'>{title}</p>
+                                <p className='text-3xl underline'>{title}</p>
                                 <p className='text-1xl p-2 text-center'>{imageDescription}</p>
-                                <p className='text-1xl p-4 pb-6 text-[#2d414c] font-extrabold'>{techUsed}</p>
+                                <h3 className='text-1xl p-4 pb-6 font-extrabold'>{techUsed}</h3>
                                 <a className='border-green' href={linkToProject} rel='noreferrer' target='_blank'>
                                     <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex justify-center mx-auto border-[#121212] hover:bg-[#E6CCF5]'>View Project</button>
                                 </a>

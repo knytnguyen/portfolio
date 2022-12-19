@@ -24,7 +24,7 @@ const data = [
     {
         id: 3,
         image: BeginningPortfolio,
-        title: 'Beginning Portfolio',
+        title: 'First Portfolio',
         imageDescription: 'This project was my first attempt at creating a personal portfolio and start my web development path. I created this website using the skills I had acquired from completing over 300 hours worth of content from the freeCodeCamp Responsive Web Design course.',
         techUsed: 'HTML • CSS • JavaScript',
         linkToProject: 'https://knytnguyen.github.io/',
