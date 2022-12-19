@@ -54,7 +54,7 @@ const Portfolio = () => {
                                 <h2 className='text-3xl font-bold my-4'>{id}</h2>
                                 <p className='text-2xl underline'>{title}</p>
                                 <p className='text-1xl p-2 text-center'>{imageDescription}</p>
-                                <p className='text-1xl p-4 pb-6 text-[#2d414c]'>{techUsed}</p>
+                                <p className='text-1xl p-4 pb-6 text-[#2d414c] font-extrabold'>{techUsed}</p>
                                 <a className='border-green' href={linkToProject} rel='noreferrer' target='_blank'>
                                     <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex justify-center mx-auto border-[#121212] hover:bg-[#E6CCF5]'>View Project</button>
                                 </a>
