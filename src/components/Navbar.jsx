@@ -14,19 +14,19 @@ const Navbar = () => {
         </div>
         {/* MENU */}
         <ul className='hidden md:flex text-lg p-2'>
-            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
+            <li className='bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:0%_5px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_5px] transition-all duration-500 p-3'>
                 <Link to="home" smooth={true} duration={500}> Home </Link>
             </li>
-            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
+            <li className='bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:0%_5px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_5px] transition-all duration-500 p-3'>
                 <Link to="about" smooth={true} duration={500}> About </Link>
             </li>
-            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
+            <li className='bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:0%_5px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_5px] transition-all duration-500 p-3'>
                 <Link to="skills" smooth={true} duration={500}> Skills & Resume </Link>
             </li>
-            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
+            <li className='bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:0%_5px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_5px] transition-all duration-500 p-3'>
                 <Link to="portfolio" smooth={true} duration={500}> Portfolio </Link>
             </li>
-            <li className='hover:bg-[#E6CCF5] rounded-2xl p-3'>
+            <li className='bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:0%_5px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_5px] transition-all duration-500 p-3'>
                 <Link to="contact" smooth={true} duration={500}> Contact </Link>
             </li>
         </ul>
