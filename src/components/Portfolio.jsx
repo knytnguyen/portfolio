@@ -32,8 +32,8 @@ const Portfolio = () => {
     };
 
   return (
-    <div name ='portfolio' className='w-full h-150vh text-[#16192C] bg-[#FAF4E8]'>
-        <div className='max-w-[1000px] mx-auto p-10 flex flex-col justify-center w-full h-full'>
+    <div name ='portfolio' className='w-full h-screen text-[#16192C] bg-[#FAF4E8]'>
+        <div className='max-w-[1000px] mx-auto p-5 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <h3 className='text-4xl font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom p-1'>Portfolio</h3>
                 <p className='pt-4'>Check out all of the projects I've done in the past!</p>
@@ -47,9 +47,9 @@ const Portfolio = () => {
                                 <FiChevronLeft />
                             </button>
                             <div className='flex flex-col items-center'>
-                                <img className='w-10/12 max-h-[400px]' src={image} alt={image}/>
+                                <img className='w-10/12 max-h-[400px]' src={image} alt={title}/>
                                 <h2 className='text-3xl font-bold my-4'>{id}</h2>
-                                <p className='text-3xl underline'>{title}</p>
+                                <p className='text-2xl underline'>{title}</p>
                                 <p className='text-1xl p-2 text-center'>{imageDescription}</p>
                                 <h3 className='text-1xl p-4 pb-6 font-extrabold'>{techUsed}</h3>
                                 <a className='border-green' href={linkToProject} rel='noreferrer' target='_blank'>
