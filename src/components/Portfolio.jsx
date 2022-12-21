@@ -43,11 +43,11 @@ const Portfolio = () => {
                     const { id, image, title, imageDescription, techUsed, linkToProject} = item;
                     return (
                         <div key={id} className={activeSlide === id ? 'flex justify-between items-center' : 'hidden'}>
-                            <button className='text-4xl border-2 border-[#16192C] hover:bg-[#E6CCF5] hover:text-[#111a29] p-2' onClick={() => prevSliderHandler(id)}>
+                            <button className='text-2xl border-2 border-[#16192C] hover:bg-[#E6CCF5] hover:text-[#111a29] p-2' onClick={() => prevSliderHandler(id)}>
                                 <FiChevronLeft />
                             </button>
                             <div className='flex flex-col items-center'>
-                                <img className='w-10/12 max-h-[400px]' src={image} alt={title}/>
+                                <img className='w-1/14 max-h-[400px]' src={image} alt={title}/>
                                 <h2 className='text-3xl font-bold my-4'>{id}</h2>
                                 <p className='text-2xl underline'>{title}</p>
                                 <p className='text-1xl p-2 text-center'>{imageDescription}</p>
@@ -56,7 +56,7 @@ const Portfolio = () => {
                                     <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex justify-center mx-auto border-[#121212] hover:bg-[#E6CCF5]'>View Project</button>
                                 </a>
                             </div>
-                            <button className='text-4xl border-2 border-[#16192C] hover:bg-[#E6CCF5] hover:text-[#111a29] p-2' onClick={() => nextSlideHandler(id)}>
+                            <button className='text-2xl border-2 border-[#16192C] hover:bg-[#E6CCF5] hover:text-[#111a29] p-2' onClick={() => nextSlideHandler(id)}>
                                 <FiChevronRight />
                             </button>
                         </div>
