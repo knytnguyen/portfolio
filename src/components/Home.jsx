@@ -8,7 +8,7 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-[#FDFAF2]'>
         {/* CONTAINER */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='text-3xl py-3 text-[#16192C]'>Hi! My name is</p>
+            <p className='text-3xl py-1 text-[#16192C]'>Hello! My name is</p>
 
             <h2 className='text-4xl font-bold py-3 sm:text-7xl text-[#16192C]'> Kenny Nguyen,</h2>
 
@@ -18,13 +18,13 @@ const Home = () => {
                     wrapper="b"
                     loop={1}
                     steps={[
-                        ' student.', 2000, 
-                        ' lifelong enthusiast.', 2000,
-                        ' software developer.', 2000
+                        ' student.', 3000, 
+                        ' lifelong enthusiast.', 3000,
+                        ' software developer.', 3000
                     ]}
                 />
             </p>
-
+            
             <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>Welcome to my first ever React project! I hope you enjoy the stay ^_^</p>
 
             <div className='pt-10'>
