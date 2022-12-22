@@ -16,7 +16,10 @@ const About = () => {
                 <div>
                     <p className='text-center text-1xl pt-9'>
                     Hello there, thanks for visiting my website! My name is Kenny Nguyen and I am currently a third year student majoring in 
-                    Computer Science with Business Applications at UCR. My current focus is on back-end development as I love the process of designing and building out robust and scalable features that aim to provide a better and more fulfilling experience for users. During my free time, I have also enjoyed branching out into web development and experimenting with many different interactive design features on the front-end. 
+                    Computer Science with Business Applications at UCR. My current focus is on back-end development as I love the process of
+                    designing and building out robust and scalable features that aim to provide a better and more fulfilling experience for users. 
+                    During my free time, I have also enjoyed branching out into web development and experimenting with many different interactive 
+                    design features on the front-end. 
                     </p>
                 </div>
             </div>
