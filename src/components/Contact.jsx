@@ -6,8 +6,8 @@ const Contact = () => {
         <form method='POST' action="https://getform.io/f/d4246a12-448e-4119-b6fa-4382a2c0ffbd" className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
                 <h3 className='text-4xl font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom p-1'>Contact</h3>
-                <p className='text-[#16192C] py-4'>For feedback or business inquiries, submit this form here or email me at: 
-                  <a className='bold underline text-[#B48EAD] hover:text-[#E6CCF5]' href="mailto: knytnguyen@gmail.com"> knytnguyen@gmail.com</a>
+                <p className='text-[#16192C] py-4'>For feedback or business inquiries, submit this form here or send me an email at: ‎  
+                  <a className='bold underline text-[#B48EAD] hover:text-[#E6CCF5]' href="mailto: knytnguyen@gmail.com">knytnguyen@gmail.com</a>
                 </p>
             </div>
             <input className='p-3 bg-[#FFF5B1] rounded-lg border-2 border-solid border-[#16192C]' type='text' placeholder='Name' name='name' required/>
