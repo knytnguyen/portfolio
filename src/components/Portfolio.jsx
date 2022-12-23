@@ -47,7 +47,7 @@ const Portfolio = () => {
                                 <FiChevronLeft />
                             </button>
                             <div className='flex flex-col items-center'>
-                                <img className='w-1/14 max-h-[350px] my-4' src={image} alt={title}/>
+                                <img className='w-1/14 max-h-[350px] my-4 hover:scale-105 transition duration-300 ease-in-out' src={image} alt={title}/>
                                 <p className='text-2xl underline'>{title}</p>
                                 <p className='text-1xl p-2 text-center'>{imageDescription}</p>
                                 <h3 className='text-1xl p-4 pb-6 font-extrabold'>{techUsed}</h3>
