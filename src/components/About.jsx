@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from '../assets/profile-image/originalProfileImage.png';
+import ProfileImage from '../assets/profile-image/About Profile Image.png';
 
 const About = () => {
   return (
@@ -12,9 +12,9 @@ const About = () => {
                 <div></div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-5 px-5 p-5'>
-                <img src={ProfileImage} alt="profile-pic" className='w-4/5 mx-auto'/>
+                <img src={ProfileImage} alt="profile-pic" className='w-3/4 mx-auto'/>
                 <div>
-                    <p className='text-center text-1xl pt-9'>
+                    <p className='text-center text-1xl pt-7'>
                     Hello there, thanks for visiting my website! My name is Kenny Nguyen and I am currently a third year student majoring in 
                     Computer Science with Business Applications at UCR. My current focus is on back-end development as I love the process of
                     designing and building out robust and scalable features that aim to provide a better and more fulfilling experience for users. 
