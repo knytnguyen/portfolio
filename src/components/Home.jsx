@@ -25,7 +25,7 @@ const Home = () => {
                 />
             </p>
 
-            <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>Welcome to my first ever React.js and Tailwind CSS project! I hope you enjoy the stay ^_^</p>
+            <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>Welcome to my first ever <span className='font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom'>React.js and Tailwind CSS</span> project! I hope you enjoy the stay ^_^</p>
 
             <div className='pt-10'>
                 <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex items-center border-[#121212] hover:bg-[#E6CCF5]'>
