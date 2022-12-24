@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin, FaSpotify} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {Link} from 'react-scroll'
 
@@ -71,14 +71,14 @@ const Navbar = () => {
                         LinkedIn <FaLinkedin size={30} />
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#B48EAD]'>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2EC58C]'>
                     <a className='flex justify-between items-center w-full text-[#f0f4f8]' href='mailto: knytnguyen@gmail.com' target='_blank' rel='noreferrer'>
                         Email <HiOutlineMail size={30} />
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1DB954]'>
-                    <a className='flex justify-between items-center w-full text-[#f0f4f8]' href='https://open.spotify.com/user/31eqbldo2i7nysjb365n4nrdxapq?si=63da823adca64fcc' target='_blank' rel='noreferrer'>
-                        Spotify <FaSpotify size={30} />
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gradient-to-r from-[#405de6] via-[#c13584] to-[#e1306c] '>
+                    <a className='flex justify-between items-center w-full text-[#f0f4f8]' href='https://www.instagram.com/kny.tn/' target='_blank' rel='noreferrer'>
+                        Instagram <FaInstagram size={30} />
                     </a>
                 </li>
             </ul>
