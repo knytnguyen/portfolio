@@ -15,21 +15,18 @@ const Home = () => {
             <p className='text-4xl py-3 font-bold text-[#16192C]'>
                 <Typewriter
                 onInit={(typewriter) => {
-                    typewriter.typeString('I am a student.')
-                    .pauseFor(2500)
-                    .deleteChars(8)
+                    typewriter.typeString('Welcome to my Portfolio!')
+                    .pauseFor(3000)
                     .changeDeleteSpeed(35)
-                    .changeDelay(50)
-                    typewriter.typeString('lifelong enthusiast.')
-                    .pauseFor(2500)
-                    .deleteChars(20)
-                    typewriter.typeString('software developer.')
+                    .deleteAll()
+                    .changeDelay(75)
+                    typewriter.typeString('I hope you enjoy the stay ٩(^‿^)۶')
                     .start();
                 }}
                 />
             </p>
 
-            <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>Welcome to my first ever <span className='font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom'>React.js and Tailwind CSS</span> project! I hope you enjoy the stay ٩(^‿^)۶ </p>
+            <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>This is my first ever <span className='font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom'>React.js and Tailwind CSS</span> project! Check out my work below!</p>
 
             <div className='pt-10'>
                 <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex items-center border-[#121212] hover:bg-[#E6CCF5]'>
