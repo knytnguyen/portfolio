@@ -16,17 +16,17 @@ const Home = () => {
                 <Typewriter
                 onInit={(typewriter) => {
                     typewriter.typeString('Welcome to my Portfolio!')
-                    .pauseFor(3000)
-                    .changeDeleteSpeed(35)
+                    .pauseFor(3300)
+                    .changeDeleteSpeed(50)
                     .deleteAll()
-                    .changeDelay(75)
+                    .changeDelay(100)
                     typewriter.typeString('I hope you enjoy the stay ٩(^‿^)۶')
                     .start();
                 }}
                 />
             </p>
 
-            <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>This is my first ever <span className='font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom'>React.js and Tailwind CSS</span> project! Check out my work below!</p>
+            <p className='text-2xl text-[#16192C] py-2 max-w-[700px]'>This is my first ever <span className='font-bold inline bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:100%_5px] bg-no-repeat bg-left-bottom'>React.js and Tailwind CSS</span> project, Check out my work below!</p>
 
             <div className='pt-10'>
                 <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex items-center border-[#121212] hover:bg-[#E6CCF5]'>
