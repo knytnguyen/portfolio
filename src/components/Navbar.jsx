@@ -7,7 +7,7 @@ const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-[#f0f4f8]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#121212] text-[#f0f4f8] z-10'>
         <div>
             <h1 className='font-extrabold text-3xl bg-clip-text pl-4'>
                 <a className='bg-gradient-to-r from-red-500 via-blue-400 to-lime-600 bg-[length:0%_5px] bg-no-repeat bg-left-bottom hover:bg-[length:100%_5px] transition-all duration-500 p-2 cursor-pointer' href='#top'>
