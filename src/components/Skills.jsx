@@ -9,6 +9,8 @@ import GitHub from '../assets/skills/GitHub-Logo.png';
 import ReactLogo from '../assets/skills/React-Logo.png';
 import HTML from '../assets/skills/HTML-Logo.png';
 
+import CurrentResume from '../assets/resume/Resume - Kenny Nguyen.pdf'
+
 
 
 const Skills = () => {
@@ -49,7 +51,7 @@ const Skills = () => {
                     <p className='my-4'>HTML/CSS</p>
                 </div>
             </div>
-            <a href='../assets/resume/Resume%20-%20Kenny%20Nguyen.pdf' rel='noreferrer' target='_blank'>
+            <a href={CurrentResume} rel='noreferrer' target='_blank'>
                 <button className='text-[#16192C] bg-[#A2D6E7] group border-2 px-6 py-3 my-2 flex justify-center mx-auto border-[#121212] hover:bg-[#E6CCF5]'>View Resume</button>
             </a>
         </div>
