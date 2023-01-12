@@ -1,3 +1,22 @@
+# Project Description
+This is my first ever React project and personal portfolio webpage built using ReactJS and TailwindCSS. This webpage contains my background, experience, skills, and personal projects that I have developed throughout the past few years in my software development journey. You can find more information about the features of my webpage below as well as all of the different technologies and libraries that I used to create and develop this project.
+
+## Features of the Webpage:
+* Website interface built out using the ReactJS library and TailwindCSS framework
+* Fully responsive webpage for different screen sizes and mobile adaptability
+* Typewriter animation that introduces the user to the project
+* Scrolling animations as the user progresses through the webpage
+* Ability to send messages and emails through a contact form on the webpage
+* A Slideshow/Carousel that allows the user to view and visit the different projects I've done in the past
+
+## Programming Languages and Technologies:
+* [ReactJS](https://reactjs.org/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Animate on Scroll Library](https://github.com/michalsnik/aos)
+* [getform](https://getform.io/)
+* JavaScript
+* HTML/CSS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
