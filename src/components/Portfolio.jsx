@@ -31,11 +31,11 @@ const Portfolio = () => {
         else {
             setActiveSlide(myData.length - 1)
         }
-    };
-  useEffect(() => {
+    }; 
+useEffect(() => {
     Aos.init({ duration : 2000 });
-  }, []);
-  return (
+}, []);
+return (
     <div name ='portfolio' className='w-full h-screen text-[#16192C] bg-[#FAF4E8]'>
         <div className='max-w-[1000px] mx-auto p-5 flex flex-col justify-center w-full h-full'>
             <div data-aos="fade-up" data-aos-once="true">
