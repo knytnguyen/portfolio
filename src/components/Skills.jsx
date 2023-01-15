@@ -11,8 +11,6 @@ import HTML from '../assets/skills/HTML-Logo.png';
 
 import CurrentResume from '../assets/resume/Resume - Kenny Nguyen.pdf'
 
-
-
 const Skills = () => {
   useEffect(() => {
     Aos.init({ duration : 2000 });
