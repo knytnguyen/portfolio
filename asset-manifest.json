@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0eb9abab.css",
-    "main.js": "/portfolio/static/js/main.679e3fa0.js",
+    "main.js": "/portfolio/static/js/main.147027bd.js",
     "static/media/About-Image.png": "/portfolio/static/media/About-Image.36b8925c5c85d38618f3.png",
     "static/media/Amazon-Web-Data.png": "/portfolio/static/media/Amazon-Web-Data.1f6488f450afe47fe4eb.png",
     "static/media/CodePen-Profile.PNG": "/portfolio/static/media/CodePen-Profile.512c0df19d576ac58645.PNG",
     "static/media/TypingRoyale-Image.PNG": "/portfolio/static/media/TypingRoyale-Image.9f7f2b72121d031417b2.PNG",
     "static/media/FreeCodeCamp-Profile.PNG": "/portfolio/static/media/FreeCodeCamp-Profile.5a60da5b46cec931065d.PNG",
-    "static/media/Resume - Kenny Nguyen.pdf": "/portfolio/static/media/Resume - Kenny Nguyen.cbac01871b16925e5213.pdf",
+    "static/media/Resume - Kenny Nguyen.pdf": "/portfolio/static/media/Resume - Kenny Nguyen.1a5f60b103753c50acd4.pdf",
     "static/media/Beginning-Portfolio-Site.PNG": "/portfolio/static/media/Beginning-Portfolio-Site.d982e56185ca1d43fcd4.PNG",
     "static/media/RogueOrigins-Image.png": "/portfolio/static/media/RogueOrigins-Image.99800e12f122a1bdb11d.png",
     "index.html": "/portfolio/index.html",
     "main.0eb9abab.css.map": "/portfolio/static/css/main.0eb9abab.css.map",
-    "main.679e3fa0.js.map": "/portfolio/static/js/main.679e3fa0.js.map"
+    "main.147027bd.js.map": "/portfolio/static/js/main.147027bd.js.map"
   },
   "entrypoints": [
     "static/css/main.0eb9abab.css",
-    "static/js/main.679e3fa0.js"
+    "static/js/main.147027bd.js"
   ]
 }
