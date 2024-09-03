@@ -54,16 +54,16 @@ const Home = () => {
         <div className="pt-8" data-aos="fade-up" data-aos-delay="1600">
           {/* Button Animations to Scroll to About Component */}
           <button className="relative inline-block font-medium group p-3">
-            <span className="absolute inset-0 w-full h-full transition duration-400 ease-out transform translate-x-1 translate-y-1 bg-[#61DBFB] group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-            <span className="absolute inset-0 w-full h-full bg-[#0A192F] border border-[#61DBFB] group-hover:bg-[#61DBFB] group-hover:border-[#0A192F]"></span>
-            <span className="relative text-[#61DBFB] group-hover:text-[#0A192F] flex items-center">
-              <Link to="about" smooth={true} duration={700}>
+            <Link to="about" smooth={true} duration={700}>
+              <span className="absolute inset-0 w-full h-full transition duration-400 ease-out transform translate-x-1 translate-y-1 bg-[#61DBFB] group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+              <span className="absolute inset-0 w-full h-full bg-[#0A192F] border border-[#61DBFB] group-hover:bg-[#61DBFB] group-hover:border-[#0A192F]"></span>
+              <span className="relative text-[#61DBFB] group-hover:text-[#0A192F] flex items-center">
                 Check out my work
-              </Link>
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3" />
+                </span>
               </span>
-            </span>
+            </Link>
           </button>
         </div>
       </div>
