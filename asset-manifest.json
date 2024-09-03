@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0eb9abab.css",
-    "main.js": "/portfolio/static/js/main.eab81f3d.js",
+    "main.js": "/portfolio/static/js/main.679e3fa0.js",
     "static/media/About-Image.png": "/portfolio/static/media/About-Image.36b8925c5c85d38618f3.png",
     "static/media/Amazon-Web-Data.png": "/portfolio/static/media/Amazon-Web-Data.1f6488f450afe47fe4eb.png",
     "static/media/CodePen-Profile.PNG": "/portfolio/static/media/CodePen-Profile.512c0df19d576ac58645.PNG",
@@ -12,10 +12,10 @@
     "static/media/RogueOrigins-Image.png": "/portfolio/static/media/RogueOrigins-Image.99800e12f122a1bdb11d.png",
     "index.html": "/portfolio/index.html",
     "main.0eb9abab.css.map": "/portfolio/static/css/main.0eb9abab.css.map",
-    "main.eab81f3d.js.map": "/portfolio/static/js/main.eab81f3d.js.map"
+    "main.679e3fa0.js.map": "/portfolio/static/js/main.679e3fa0.js.map"
   },
   "entrypoints": [
     "static/css/main.0eb9abab.css",
-    "static/js/main.eab81f3d.js"
+    "static/js/main.679e3fa0.js"
   ]
 }
